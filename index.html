@@ -36,6 +36,9 @@
 			while (index2 < row['length']) {
 				kbdXXXXX = document.createElement('kbd')
 				kbdXXXXX.textContent = row[index2]
+				buttonX = document.createElement('button')
+				buttonX.textContent = '编辑'
+				kbdXXXXX.appendChild(buttonX)
 				divXXXXX.appendChild(kbdXXXXX)
 				index2 = index2 + 1
 			}
